@@ -44,17 +44,9 @@ export const Btn = styled.button`
     background-color: ${p => p.theme.colors.muted};
     color: ${p => p.theme.colors.white};
     box-shadow: -2px -2px 5px #fff, 2px 2px 5px #aab7e7;
-    svg {
-      fill: ${p => p.theme.colors.white};
-      stroke: ${p => p.theme.colors.white};
-    }
     :active {
       color: ${p => p.theme.colors.muted};
       box-shadow: inset 1px 1px 2px #aab7e7, inset -1px -1px 2px #fff;
-      svg {
-        fill: ${p => p.theme.colors.white};
-        stroke: ${p => p.theme.colors.white};
-      }
     }
   }
 `;
