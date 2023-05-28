@@ -22,7 +22,7 @@ export const Input = styled.input`
   padding-right: ${p => p.theme.space[4]}px;
 
   max-width: 100%;
-  width: 300px;
+  width: 484px;
 
   border: 0;
   outline: 0;
